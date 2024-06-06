@@ -13,7 +13,7 @@ const Courses = () => {
                 <p >{items.Description}</p>
                 <section className='flex flex-row justify-around'>
 <section>
-    <a href='' className='text-dec'>Start Learning</a>
+    <a href='' className='underline'>Start Learning</a>
 </section>
                 </section>
                 </section>
