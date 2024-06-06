@@ -45,5 +45,12 @@ const CoursesData = [
     'Title':'Resumes',
     'Description':'CODE COINS CAN BE USED IN MULTIPLE PLACES THROUGH OUT THE APP,LIKE FOR BUYING COURSES,CHALLENGES,QUESTIONS.'
 },
+{
+    'Title':'Projects',
+    'Description':'CODE COINS CAN BE USED IN MULTIPLE PLACES THROUGH OUT THE APP,LIKE FOR BUYING COURSES,CHALLENGES,QUESTIONS.'
+},
 
 ]
+
+
+export default CoursesData;
