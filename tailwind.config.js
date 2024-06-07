@@ -11,6 +11,9 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      lineHeight:{
+        '13.5':'21.5px'
+      }
 
     },
   },

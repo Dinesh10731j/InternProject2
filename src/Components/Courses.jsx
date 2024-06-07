@@ -17,7 +17,7 @@ const Courses = ({ SearchInput }) => {
             <h1 className="text-center  text-3xl py-4 font-poppins font-medium">
               {items.Title}
             </h1>
-            <p>{items.Description}</p>
+            <p className="font-poppins font-medium leading-13.5 text-[#525252]">{items.Description}</p>
             <section className="flex flex-row justify-evenly mt-5 space-x-3">
               <section>
                 <a href="" className="underline font-normal font-poppins">
@@ -31,7 +31,7 @@ const Courses = ({ SearchInput }) => {
                 <img
                   src={items.Image}
                   alt="Locker"
-                  className="h-[100px] w-[100px] absolute right-0"
+                  className="h-[100px] w-[100px] absolute right-0 bottom-0 "
                 />
               </section>
             </section>
