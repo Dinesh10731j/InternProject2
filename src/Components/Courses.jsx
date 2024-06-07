@@ -7,7 +7,7 @@ const Courses = ({ SearchInput }) => {
   );
 
   return (
-    <section className="flex flex-row gap-7 py-5 px-7 flex-wrap justify-evenly items-center mt-12">
+    <section className="flex flex-row f  gap-7 py-5 px-7 flex-wrap justify-evenly items-center mt-12">
       {filteredCourses.length > 0 ? (
         filteredCourses.map((items, index) => (
           <div
