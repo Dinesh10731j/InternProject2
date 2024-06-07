@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <header className="flex flex-row justify-around items-center py-7 ">
       <section>
-        <h1 className="font-medium font-poppins">
-          c<span className="text-2xl tracking-wide">o</span>dynn
+        <h1 className="font-medium font-poppins text-xl ">
+                c<span className="text-2xl ">o</span>dynn
         </h1>
       </section>
       <nav>
