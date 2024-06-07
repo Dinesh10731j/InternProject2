@@ -4,7 +4,7 @@ import Searchbar from "./Components/Searchbar";
 import Courses from "./Components/Courses";
 
 const App = () => {
-  const [searchInput, setSearchInput] = useState("")
+  const [searchInput, setSearchInput] = useState("");
   const handleChange = (input) =>{
     setSearchInput(input);
 
