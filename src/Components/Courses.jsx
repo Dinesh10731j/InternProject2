@@ -5,7 +5,6 @@ const Courses = ({ SearchInput }) => {
   const filteredCourses = CoursesData.filter((course) =>
     course.Title.toLowerCase().includes(SearchInput.toLowerCase())
   );
-
   return (
     <section className="flex flex-row f  gap-7 py-5 px-7 flex-wrap justify-evenly items-center mt-12">
       {filteredCourses.length > 0 ? (
