@@ -7,7 +7,7 @@ const Searchbar = ({handleChange}) => {
         <input
           type="text"
           placeholder=" 🔍 Search Resources "
-          className="rounded-3xl px-12 py-2 bg-slate-200 outline-none font-poppins"
+          className="rounded-3xl px-12 py-2 bg-[#FFFFFF] outline-none font-poppins"
           onChange={(e)=>handleChange(e.target.value)}
          
         />

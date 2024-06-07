@@ -12,7 +12,7 @@ const Courses = ({ SearchInput }) => {
         filteredCourses.map((items, index) => (
           <div
             key={index}
-            className="h-[300px] w-[300px] bg-[#FFFFFF] px-7 py-4 overflow-hidden border border-black relative"
+            className="h-[250px] w-[400px] bg-[#FFFFFF] px-7 py-4 overflow-hidden border border-black relative"
           >
             <h1 className="text-center  text-3xl py-4 font-poppins font-medium text-[#000000]">
               {items.Title}
