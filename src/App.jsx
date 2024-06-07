@@ -1,19 +1,24 @@
-import React from "react";
+import { useState } from "react";
 import Header from "./Components/Header";
 import Searchbar from "./Components/Searchbar";
 import Courses from "./Components/Courses";
 
 const App = () => {
+  const [searchInput, setSearchInput] = useState("")
+  const handleChange = (input) =>{
+    setSearchInput(input);
+
+  }
   return (
-    <div className="h-auto w-[100%] bg-custom-gradient">
+    <div className="h-[170vh] w-[100%] bg-custom-gradient">
       <Header />
       <section className="flex flex-row gap-2 justify-evenly items-center">
         <section className="text-4xl font-bold tracking-wide">
           RESOURCES
         </section>
-        <Searchbar />
+        <Searchbar handleChange={handleChange}/>
       </section>
-      <Courses />
+      <Courses  SearchInput={searchInput}/>
     </div>
   );
 };

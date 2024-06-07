@@ -1,13 +1,18 @@
-import React from 'react'
+import React from "react";
 
-const Searchbar = () => {
+const Searchbar = ({handleChange}) => {
   return (
     <>
-        <section>
-            <input type='text' placeholder='Search Resources' className='rounded-3xl px-12 py-2 bg-slate-200 outline-none'/>
-        </section>
+      <section>
+        <input
+          type="text"
+          placeholder="Search Resources"
+          className="rounded-3xl px-12 py-2 bg-slate-200 outline-none"
+          onChange={(e)=>handleChange(e.target.value)}
+        />
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Searchbar
+export default Searchbar;
