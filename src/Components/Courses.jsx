@@ -40,7 +40,7 @@ const Courses = ({ SearchInput }) => {
       ) : (
         <section>
           <h1 className="text-center font-bold tracking-wide">
-            Courses Not found 🔍 ...
+            Resources Not found 🔍 ...
           </h1>
         </section>
       )}
