@@ -12,15 +12,15 @@ const Courses = ({ SearchInput }) => {
         filteredCourses.map((items, index) => (
           <div
             key={index}
-            className="h-[300px] w-[300px] bg-[#ecf0f1] px-7 py-4 overflow-hidden border border-black relative"
+            className="h-[300px] w-[300px] bg-[#FFFFFF] px-7 py-4 overflow-hidden border border-black relative"
           >
-            <h1 className="text-center  text-3xl py-4 font-poppins font-medium">
+            <h1 className="text-center  text-3xl py-4 font-poppins font-medium text-[#000000]">
               {items.Title}
             </h1>
             <p className="font-poppins font-medium leading-13.5 text-[#525252]">{items.Description}</p>
             <section className="flex flex-row justify-evenly mt-5 space-x-3">
               <section>
-                <a href="" className="underline font-normal font-poppins">
+                <a href="" className="underline font-medium text-[#000000] font-poppins text-[16px]">
                   Start Learning
                 </a>
               </section>
