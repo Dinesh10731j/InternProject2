@@ -8,6 +8,9 @@ export default {
         'custom-gradient2':'linear-gradient(180deg, #F2F2F2 0%, #BBBBBB 94.76%)'
        
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
 
     },
   },

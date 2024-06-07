@@ -13,7 +13,7 @@ const App = () => {
     <div className="h-[170vh] w-[100%] bg-custom-gradient">
       <Header />
       <section className="flex flex-row gap-2 justify-evenly items-center">
-        <section className="text-4xl font-bold tracking-wide">
+        <section className="text-5xl  tracking-wide font-poppins font-normal">
           RESOURCES
         </section>
         <Searchbar handleChange={handleChange}/>
