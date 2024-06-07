@@ -8,9 +8,9 @@ const Courses = ({ SearchInput }) => {
   return (
     <section className="flex flex-row f  gap-7 py-5 px-7 flex-wrap justify-evenly items-center mt-12">
       {filteredCourses.length > 0 ? (
-        filteredCourses.map((items, index) => (
+        filteredCourses.map((items) => (
           <div
-            key={index}
+            key={items.id}
             className="h-[250px] w-[400px] bg-[#FFFFFF] px-7 py-4 overflow-hidden border border-black relative"
           >
             <h1 className="text-center  text-3xl py-4 font-poppins font-medium text-[#000000]">
